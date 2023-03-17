@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Inter:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red;  */
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  background-color: #08142f;
+}
+
+/* Style header*/
+
+#id-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #050521;
+  height: 80px;
+}
+
+#id-header .Name {
+  color: #ffffff;
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34px;
+}
+
+#id-header .Linkedin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  margin-right: 4.8rem;
+}
+
+.Linkedin p {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-right: 6.3rem;
+}
+
+/* Style Welcome*/
+
+#id-welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 101px;
+  gap: 120px;
+  height: 822px;
+}
+
+#id-welcome .HiText {
+  width: 810px;
+  height: 259px;
+}
+
+#id-welcome .Welcome {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.01em;
+
+  color: #6ca3e1;
+}
+
+#id-welcome .WhoAmI {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  margin-top: 3rem;
+  color: #c6ccdf;
+}
+
+#id-welcome .Decoration {
+  width: 738px;
+  height: 475px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+
+  color: rgba(189, 189, 189, 0.1);
+}
+
+/* Style About Me*/
+
+#id-aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 120px;
+  gap: 10px;
+
+  height: 600px;
+}
+
+#id-aboutMe .AboutMeContainer {
+  width: 1199px;
+  height: 555px;
+}
+
+.SectionName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+#id-aboutMe .Introduction,
+.IntroductionList,
+.SkillList,
+.OutroIntro {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  margin: 2rem;
+  color: #c6ccdf;
+}
+
+#id-aboutMe .SkillList {
+  margin-left: 4rem;
+}
+
+/* Style About Me*/
+
+#id-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 120px;
+  gap: 10px;
+
+  height: 600px;
+}
+
+#id-experience .ExperienceContainer {
+  width: 1188.24px;
+  height: 366px;
+}
+
+#id-experience .JobTitle,
+.YearWorking,
+.WorkTasks {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  margin: 2rem;
+  color: #c6ccdf;
+}
+
+#id-experience .WorkTasks {
+  margin-left: 4rem;
+}
+
+/* Style Navegation*/
+
+#id-navegation {
+  visibility: hidden;
+}
+
+/* Style Projects*/
+
+#id-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 120px;
+  gap: 10px;
+  height: 757px;
+}
+
+#id-projects .ProjectsContainer {
+  width: 1420px;
+  height: 597px;
+}
+
+.ProjectsContainer .Introduction {
+  width: 1096px;
+  height: 54px;
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+
+  color: #c6ccdf;
+}
+
+#id-card {
+  width: 307px;
+  height: 388px;
+
+  background: #15223e;
+  border-radius: 32px;
+}
+
+#id-card .CardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 248px;
+  height: 307px;
+}
+
+#id-card .ImgCardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 248px;
+  height: 25px;
+}
