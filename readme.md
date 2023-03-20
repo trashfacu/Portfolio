@@ -1,9 +1,11 @@
 
 <div align="center">
     <h1>Hello there!</h1>
-    <img src="./assets/shortcut_neo.png">
 </div>
-## [fmazziotti.com - v1](https://fmazziotti.com/)
+
+![cover](./assets/shortcut_neo.png)
+
+[fmazziotti.com - v1](https://fmazziotti.com/)
 
 ### This is the first iteration of my web portfolio.
 
