@@ -71,6 +71,9 @@ int main() {
     return 0;
 }`;
 
+let decorationCode = document.querySelector(".Decoration");
+decorationCode.innerHTML = code;
+
 // Scrolls managment in the sidebar
 
 const sidebarLinks = document.querySelectorAll('.SectionsName');
@@ -87,3 +90,20 @@ sidebarLinks.forEach(link => {
     });
   });
 });
+
+// Redirecting navegation bar to links
+
+const GITHUB_ICON = document.getElementById('id-githubIcon');
+
+GITHUB_ICON.addEventListener('click', function() {
+    window.open('https://github.com/trashfacu');
+})
+
+const LINKEDIN_ICON = document.getElementById('id-linkedinIcon');
+
+LINKEDIN_ICON.addEventListener('click', function() {
+    window.open('https://www.linkedin.com/in/facundo-mazziotti-27b713223/');
+})
+
+// TODO
+// ADD A WINDOW WHEN CLICKING THE MAIL ICON TO SEND A MAIL TO ME
