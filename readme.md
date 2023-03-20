@@ -1,15 +1,16 @@
 
+# Hello there!
+
 <div align="center">
-    <h1>Hello there!</h1>
+    <img src="https://static.wikia.nocookie.net/matrix/images/8/87/Asleep_at_computer-0.png/revision/latest/scale-to-width-down/1000?cb=20181025033637">
 </div>
 
-![cover](./assets/shortcut_neo.png)
 
-[fmazziotti.com - v1](https://fmazziotti.com/)
+### This is the first iteration of [fmazziotti.com - v1](https://fmazziotti.com/)
 
-### This is the first iteration of my web portfolio.
+![demo.png](./assets/demo.jpg)
 
-## 🛠 if you have any recommendation do not hesitate in pulling a request!
+### 🛠 if you have any recommendation do not hesitate in pulling a request!
 
 1. clone the repo into your computer.
 
@@ -25,13 +26,13 @@
 
    ```
 
-## 🚀 and finally push it to the repo
+### 🚀 and finally push it to the repo
 
    ```sh
    git push origin new-branch-name
    ```
 
-## 🎨 color codes
+### 🎨 color codes
 
 | Color Name | Hex Code |
 |------------|----------|
