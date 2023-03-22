@@ -1,215 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FMZZTT</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./assets/neo.png"/>
-  </head>
-  <body>
-    <header id="id-header">
-      <span class="Name"><span style="color: #4caee5">/</span> FMZZTT</span>
-      <span class="Linkedin">
-        <a href="https://www.linkedin.com/in/facundo-mazziotti-27b713223/" target="_blank"><img src="./assets/linkedin-header.svg" alt="logo linkedin" /></a>  
-        <h1>FacuMazziotti<h1>
-      </span>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FMZZTT</title>
+        <link rel="stylesheet" href="./css/styles-lockscreen.css" />
+        <link rel="shortcut icon" href="./assets/neo.png"/>
+      </head>
+<body>
     <main>
-      <section id="id-welcome">
-        <span class="HiText">
-          <span class="Welcome">Hi, Facundo here!</span>
-          <p class="WelcomesubText">a Backend developer</p>
+        <section id="id-welcomeScreen">
 
-          <p class="WhoAmI">
-            I'm a software developer based in Buenos Aires, Argentina. I have
-            great interest in full-stack development, operating system, systems
-            architecture, and everything in between.
-          </p>
-        </span>
-        <p class="Decoration">
-        </p>
-      </section>
-      <section id="id-aboutMe">
-        <span class="AboutMeContainer">
-          <p class="SectionName">
-            <span style="color: #6ca3e1">/</span> About Me
-          </p>
-          <p class="Introduction">
-            I am currently studying software development at <a href="https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer" target="_blank" class="Link">Digital House</a> ,I also
-            did 2 years of Systems Engineering at Universidad Tecnologica
-            Nacional, and worked for a year on cybersecurity at <a href="https://www.edsitrend.com/" target="_blank" class="Link">EDSI Trend
-              Argentina.</a>
-          </p>
-          <p class="IntroductionList">
-            Here are some technologies I have been working with:
-          </p>
-          <ul class="SkillList">
-            <li>Javascript ES6+</li>
-            <li>AWS</li>
-            <li>Bash/Powershell Scripting</li>
-            <li>Java</li>
-            <li>Spring + Spring boot</li>
-            <li>HTML & CSS</li>
-          </ul>
-          <p class="OutroIntro">
-            Outside of work, I'm interested in music and films, also i play
-            guitar and love to build computers.
-          </p>
-        </span>
-      </section>
+            <span class="WelcomeScreenContainer">
+                <p class="Title">Comming</p>
+                <img src="./assets/LockScreenGif.gif" alt="lockScreenImg">
+                <p class="Title">Soon</p>
+            </span>
 
-      <section id="id-navegation">
-        <span class="NavegationContainer">
-          <p class="SectionsName" href="#id-header">/home</p>
-          <p class="SectionsName" href="#id-aboutMe">/about</p>
-          <p class="SectionsName" href="#id-experience">/experience</p>
-          <p class="SectionsName" href="#id-projects">/projects</p>
-          <span class="ContactInfo">
-            <img src="./assets/contact_mail 1.svg" alt="email icon" id="id-mailIcon" />
-            <img src="./assets/github.svg" alt="github icon" id="id-githubIcon"/>
-            <img src="./assets/linkedin.svg" alt="linkedin icon" id="id-linkedinIcon"/>
-          </span>
-        </span>
+            </section>
+            <section id="id-password">
+                <form action="" id="formPasswd">
+                    <div class="row w-100">
+                        <div class="field w-150">
+                            <label class="glow text PasswordTitle">Password</label>
+                            <input type="password" pattern="\w+" id="password"/>
+                        </div>
+                    </form>
+        </section>
 
-      </section>
-
-      <section id="id-experience">
-        <span class="ExperienceContainer">
-          <p class="SectionName">
-            <span style="color: #b85b30">/</span> Experience
-          </p>
-          <p class="JobTitle">
-            Cybersecurity Consultant @ EDSI Trend Argentina
-          </p>
-          <p class="YearWorking">NOV 2021 - MARCH 2023</p>
-          <ul class="WorkTasks">
-            <li>
-              I provided support to large companies such as banks, social
-              welfare, etc. In relation to Trend Micro products (Antivirus,
-              Antispam, Proxies etc.) and assist in the implementation and
-              troubleshooting of Trend Micro products.
-            </li>
-            <li>
-              I wrote scripts to automate tasks and make large-scale changes
-              more quickly and concisely.
-            </li>
-            <li>
-              I helped in the creation and deployment of new servers such as
-              Active Directory, web servers among others, as well as migrating
-              old servers to new, more performing ones.
-            </li>
-          </ul>
-        </span>
-      </section>
-
-      <section id="id-projects">
-        <span class="ProjectsContainer">
-          <p class="SectionName">
-            <span style="color: #3da57f">/</span> Projects
-          </p>
-          <p class="Introduction">
-            Here are some of my own projects, using the technologies that I
-            know, some of them were made to meet the needs I had.
-          </p>
-          <span class="ProjectsCardsContainer">
-
-            <div id="id-card">
-              <span class="CardContainer">
-                <span class="ImgCardContainer">
-                  <img
-                  class="GithubIcon"
-                  src="./assets/github.svg"
-                  alt="github icon"
-                  />
-                  <img
-                  class="ExternalLinkIcon"
-                  src="./assets/external-link.svg"
-                  alt="external link icon"
-                  />
-                </span>
-                
-                <span class="ProjectTextContainer">
-                  <p class="ProjectCardTitle">TSB Homework Magnament Interface</p>
-                  <p class="ProjectCardDescription">
-                    Management Interface An application created for Toronto District
-                    School Board, with a Flask back-end and a Vue front-end. Python
-                    (Flask), Vue.js, Bootstrap, SQL
-                  </p>
-                  <p class="ProjectCardFooter">Python, Vue.js, bootstra, SQL</p>
-                </span>
-              </span>
-            </div>
-            
-            <div id="id-card">
-              <span class="CardContainer">
-                <span class="ImgCardContainer">
-                  <img
-                  class="GithubIcon"
-                  src="./assets/github.svg"
-                  alt="github icon"
-                  />
-                  <img
-                  class="ExternalLinkIcon"
-                  src="./assets/external-link.svg"
-                  alt="external link icon"
-                  />
-                </span>
-                
-                <span class="ProjectTextContainer">
-                  <p class="ProjectCardTitle">TSB Homework Magnament Interface</p>
-                  <p class="ProjectCardDescription">
-                    Management Interface An application created for Toronto District
-                    School Board, with a Flask back-end and a Vue front-end. Python
-                    (Flask), Vue.js, Bootstrap, SQL
-                  </p>
-                  <p class="ProjectCardFooter">Python, Vue.js, bootstra, SQL</p>
-                </span>
-              </span>
-            </div>
-            
-            <div id="id-card">
-              <span class="CardContainer">
-                <span class="ImgCardContainer">
-                  <img
-                  class="GithubIcon"
-                  src="./assets/github.svg"
-                  alt="github icon"
-                  />
-                  <img
-                  class="ExternalLinkIcon"
-                  src="./assets/external-link.svg"
-                  alt="external link icon"
-                  />
-                </span>
-                
-                <span class="ProjectTextContainer">
-                  <p class="ProjectCardTitle">TSB Homework Magnament Interface</p>
-                  <p class="ProjectCardDescription">
-                    Management Interface An application created for Toronto District
-                    School Board, with a Flask back-end and a Vue front-end. Python
-                    (Flask), Vue.js, Bootstrap, SQL
-                  </p>
-                  <p class="ProjectCardFooter">Python, Vue.js, bootstra, SQL</p>
-                </span>
-              </span>
-            </div>
-            
-          </span>
-        </span>
-      </section>
     </main>
-    <footer id="id-footer">
-      <span class="FooterContainer">
-
-        <span class="FooterName">/ FMZZTT</span>
-        <p class="GoodbyeMessage">
-          If you liked my work i'm ready to talk to you.
-        </p>
-      </span>
-    </footer>
-    <script src="./scripts/app.js"></script>
-  </body>
+    <script src="./scripts/script-lockscreen.js"></script>
+</body>
 </html>
