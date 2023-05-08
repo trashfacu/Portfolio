@@ -294,6 +294,7 @@ body {
   padding: 80px 120px;
   gap: 10px;
   height: 757px;
+  visibility: hidden;
 }
 
 #id-projects .ProjectsContainer {
