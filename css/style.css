@@ -11,6 +11,7 @@
 
 body {
   background-color: #08142f;
+  cursor: url(../assets/cursor.cur), auto;
 }
 
 /* Style header*/
@@ -59,7 +60,7 @@ body {
 #id-welcome {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 200px 101px;
   height: 822px;
