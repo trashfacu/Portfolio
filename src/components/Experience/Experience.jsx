@@ -6,20 +6,28 @@ function Experience() {
 
   const experienceData = [
     {
-      jobTitle: "EDSI Trend Argentina",
-      year: "MAR 2021 - MAR 2022",
+      companyName: "Octavo Piso",
+      jobTitle: "Backend developer",
+      year: "April 2023 - Present",
       tasks: [
-        "I provided support to large companies such as banks, social welfare, etc. In relation to Trend Micro products (Antivirus, Antispam, Proxies etc.) and assist in the implementation and troubleshooting of Trend Micro products.",
-        "I wrote scripts to automate tasks and make large-scale changes more quickly and concisely.",
-        "I helped in the creation and deployment of new servers such as Active Directory, web servers among others, as well as migrating old servers to new, more performing ones.",
+        "API Integration",
+        "Application Maintenance",
+        "Unit testing",
+        "Technical documentation",
+        "Feature development",
+        "Data security",
       ],
     },
     {
-      jobTitle: "Octavo Piso",
-      year: "MAR 2021 - MAR 2022",
+      companyName: "EDSI Trend Argentina",
+      jobTitle: "Cyber Security Consultant",
+      year: "November 2021 - March 2023",
       tasks: [
-        "KJJ",
-        "I helped in the creation and deployment of new servers such as Active Directory, web servers among others, as well as migrating old servers to new, more performing ones.",
+        "Patch analysis and management. Treatment of Incidents",
+        "Evaluation and monitoring of advanced methodologies.",
+        "Malware analysis.",
+        "Vulnerability scanning.",
+        "Technical support in suite administration of Trend • Micro products for customers external [Proxy, Anti-Spam, Anti-Virus,XDRDetection]",
       ],
     },
     // Aca agregá mas experiencias papá
@@ -52,7 +60,7 @@ function Experience() {
                   className={`Tab ${activeTab === index ? "ActiveTab" : ""}`}
                   onClick={() => setActiveTab(index)}
                 >
-                  {entry.jobTitle}
+                  {entry.companyName}
                 </li>
               ))}
             </ul>

@@ -8,7 +8,7 @@
 
 ### This is the first iteration of [fmazziotti.com - v1](https://fmazziotti.com/)
 
-![demo.png](./assets/demo.jpg)
+![demo.png](./src/assets/demo.jpg)
 
 ### 🛠 if you have any recommendation do not hesitate in pulling a request!
 
