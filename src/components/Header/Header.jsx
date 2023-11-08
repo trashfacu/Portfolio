@@ -9,7 +9,7 @@ function Header() {
         </div>
         <div className="Linkedin">
         <a href="https://www.linkedin.com/in/facundo-mazziotti-27b713223/" target="_blank">
-          <img src={'/src/assets/linkedin-header.svg'} alt="logo linkedin" />
+          <img src={'./public/linkedin-header.svg'} alt="logo linkedin" />
         </a>
         <h1>FacuMazziotti</h1>
       </div>

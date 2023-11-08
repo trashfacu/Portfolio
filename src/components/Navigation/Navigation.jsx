@@ -42,9 +42,9 @@ function Navigation() {
         <a className="SectionsName" href="#id-experience">/experience</a>
         <a className="SectionsName" href="#id-projects">/projects</a>
         <div className="ContactInfo">
-          <a href="#id-mailIcon"><img src={'/src/assets/contact_mail 1.svg'} alt="email icon" id="id-mailIcon" /></a>
-          <a href="#id-githubIcon"><img src={'/src/assets/github.svg'} alt="github icon" id="id-githubIcon" /></a>
-          <a href="#id-linkedinIcon"><img src={'/src/assets/linkedin.svg'} alt="linkedin icon" id="id-linkedinIcon" /></a>
+          <a href="#id-mailIcon"><img src={'./public/contact_mail 1.svg'} alt="email icon" id="id-mailIcon" /></a>
+          <a href="#id-githubIcon"><img src={'./public/github.svg'} alt="github icon" id="id-githubIcon" /></a>
+          <a href="#id-linkedinIcon"><img src={'./public/linkedin.svg'} alt="linkedin icon" id="id-linkedinIcon" /></a>
         </div>
       </div>
     </section>

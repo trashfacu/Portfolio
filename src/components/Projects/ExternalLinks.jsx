@@ -5,7 +5,7 @@ function ExternalLinks({ githubLink, openLink }) {
     <div className="external-links">
       <a href={githubLink} target="_blank" rel="noopener noreferrer">
         <img
-          src={"/src/assets/github.svg"}
+          src={"./public/github.svg"}
           alt="github icon"
           className="GithubIcon"
         />
