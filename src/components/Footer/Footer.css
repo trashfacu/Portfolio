@@ -1,0 +1,33 @@
+#id-footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .FooterContainer {
+    height: 51px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .FooterName {
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    color: #6ca3e1;
+  }
+  
+  .GoodbyeMessage {
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #c6ccdf;
+  }
+  

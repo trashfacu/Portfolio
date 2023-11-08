@@ -1,0 +1,57 @@
+/* Navigation.css */
+#id-navigation {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 28px;
+    gap: 10px;
+    width: 165px;
+    height: 196px;
+    top: 88%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  #id-navigation .NavigationContainer {
+    width: 79px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .NavigationContainer img {
+    width: 21px;
+    height: 21px;
+  }
+  
+  .NavigationContainer img:hover {
+    filter: brightness(0) saturate(100%) invert(90%) sepia(5%) saturate(994%) hue-rotate(192deg) brightness(91%) contrast(92%);
+  }
+  
+  .NavigationContainer .SectionsName {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: right;
+    color: #6ca3e1;
+    text-decoration: none;
+  }
+  
+  .NavigationContainer .SectionsName:hover {
+    color: #C6CCDF;
+    text-decoration: none;
+  }
+  
+  .NavigationContainer .ContactInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-decoration: none;
+  }
+  

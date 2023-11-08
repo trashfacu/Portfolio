@@ -1,0 +1,138 @@
+#id-experience {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 120px;
+  gap: 10px;
+  height: 350px;
+}
+
+.ExperienceContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.SectionName {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  padding-bottom: 5rem;
+}
+
+.TabWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.TabPanel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.Tab {
+  font-family: 'Inter';
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #6ca3e1;
+  padding: 10px;
+  transition: color 0.3s, background-color 0.3s;
+  border-left: 2px solid transparent;
+  width: 200px;
+  transition: color 0.3s;
+  align-items: center; 
+  display: flex; 
+  justify-content: center; 
+}
+
+
+/* TabPanel Container */
+.TabPanelContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative; 
+}
+
+
+/* List of Tabs */
+.TabList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Tab.ActiveTab {
+  color: #b85b30;
+}
+
+/* Selector Line */
+.TabSelector {
+  width: 2px;
+  background-color: #b85b30;
+  transition: transform 0.3s;
+  position: absolute;
+  top: 0;
+  bottom: 0; 
+  right: 0; 
+  height: 40px; 
+}
+
+
+.Description {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  margin-left: 2rem;
+  color: #c6ccdf;
+  opacity: 0;
+  transform: translate3d(0, 100%, 0);
+  height: 100px;
+  width: 1000px;
+}
+
+.Description.ActiveDescription {
+  animation: fadeInUp 0.6s ease-in-out;
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+.Description p {
+  margin-bottom: 1rem;
+}
+
+.Description li::before {
+  content: '▹';
+  color: #6CA3E1;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.FadeIn {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}

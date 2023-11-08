@@ -1,0 +1,61 @@
+/* AboutMe.css */
+#id-aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 120px;
+    gap: 10px;
+    height: 555px; /* Adjust the height as needed */
+  }
+  
+  .AboutMeContainer {
+    width: 1199px;
+    height: 555px;
+  }
+  
+  .SectionName {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+  }
+  
+  .Introduction,
+  .IntroductionList,
+  .SkillList,
+  .OutroIntro {
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    margin: 0.5rem;
+    color: #c6ccdf;
+    list-style: none;
+  }
+  
+  .SkillList li::before {
+    content: "▹    ";
+    color: #6CA3E1;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .Introduction .Link {
+    color: #6CA3E1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .Link:hover {
+    color: #C6CCDF;
+  }
+  
+  .SkillList {
+    margin-left: 4rem;
+  }
+  

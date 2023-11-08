@@ -1,0 +1,48 @@
+/* Welcome.css */
+.welcome-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0; /* Remove the padding to match the provided HTML */
+  height: 822px;
+}
+
+.welcome-container .HiText {
+  width: 810px;
+  height: 259px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 101px; /* Add margin-left to match the provided HTML */
+}
+
+.Welcome {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.01em;
+  color: #6ca3e1;
+}
+
+.WelcomesubText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.01em;
+  color: #6ca3e1;
+}
+
+.WhoAmI {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  margin-top: 3rem;
+  color: #c6ccdf;
+}
