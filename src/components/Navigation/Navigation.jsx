@@ -40,7 +40,7 @@ function Navigation() {
         <a className="SectionsName" href="#id-header">/home</a>
         <a className="SectionsName" href="#id-aboutMe">/about</a>
         <a className="SectionsName" href="#id-experience">/experience</a>
-        <a className="SectionsName" href="#id-projects">/projects</a>
+        {/* <a className="SectionsName" href="#id-projects">/projects</a> */}
         <div className="ContactInfo">
           <a href="#id-mailIcon"><img src={'/contact_mail 1.svg'} alt="email icon" id="id-mailIcon" /></a>
           <a href="#id-githubIcon"><img src={'/github.svg'} alt="github icon" id="id-githubIcon" /></a>
